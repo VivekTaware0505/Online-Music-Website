@@ -1,0 +1,52 @@
+.main {
+
+    width: 100%;
+    height: 100vh;
+  
+    color: aliceblue;
+    animation: slide 5s infinite;
+}
+@keyframes slide {
+    0%{
+    
+        background-image: url(./../../../../public/b1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./../../../../public/b2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./../../../../public/b1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.main>p {
+    font-size: 50px;
+    margin-left: 5%;
+    width: 15%;
+    border: solid white;
+}
+
+.main>button {
+    padding: 10px 15px;
+    background-color: red;
+    margin-left: 5%;
+    border-radius: 10%;
+    color: aliceblue;
+
+}
+
+.main>h3 {
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
