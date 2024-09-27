@@ -1,4 +1,4 @@
-.container{
+.container {
 
     width: 100%;
     height: 50vh;
@@ -10,14 +10,14 @@
 }
 
 .sbox {
-   
+
     width: 300px;
     height: 300px;
-   
+
     font-weight: 500;
     color: whitesmoke;
 
-    border-radius: 50% ;
+    border-radius: 50%;
     font-size: cover;
     transition: 0.6s;
     scale: 1;
@@ -25,39 +25,48 @@
     animation: rt 3s infinite;
 
 }
-h1{
+
+h1 {
     margin-top: 10%;
-    margin-left: 5%;
-   
+    margin-left: 7%;
+    text-decoration: none;
+
+
 }
+
 @keyframes rt {
 
-   0%{
-    scale: 1;
-   }
-    50%{
-        scale: 1.1;
-    }
-    75%{
-        scale: 1.1;
-    }
-    100%{
+    0% {
         scale: 1;
     }
-    
+
+    50% {
+        scale: 1.1;
+    }
+
+    75% {
+        scale: 1.1;
+    }
+
+    100% {
+        scale: 1;
+    }
+
 }
 
-#box1{
+#box1 {
     background-image: url(./../../../../public/1.jpg);
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
 }
-#box2{
+
+#box2 {
     background-image: url(./../../../../public/b2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#box3{
+
+#box3 {
     background-image: url(./../../../../public/disk.png);
     background-repeat: no-repeat;
     background-size: contain;
