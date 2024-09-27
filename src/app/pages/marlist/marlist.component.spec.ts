@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MiddleComponent } from './middle.component';
+import { MarlistComponent } from './marlist.component';
 
-describe('MiddleComponent', () => {
-  let component: MiddleComponent;
-  let fixture: ComponentFixture<MiddleComponent>;
+describe('MarlistComponent', () => {
+  let component: MarlistComponent;
+  let fixture: ComponentFixture<MarlistComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MiddleComponent]
+      imports: [MarlistComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MiddleComponent);
+    fixture = TestBed.createComponent(MarlistComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

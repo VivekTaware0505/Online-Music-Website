@@ -1,14 +1,16 @@
 import { Routes } from '@angular/router';
+import { EnglistComponent } from './pages/englist/englist.component';
+import { HindlistComponent } from './pages/hindlist/hindlist.component';
+import { MarlistComponent } from './pages/marlist/marlist.component';
 import { AlbumComponent } from './component/album/album.component';
-import { MarathisongComponent } from './component/marathisong/marathisong.component';
-import { EnlishsongComponent } from './component/enlishsong/enlishsong.component';
-import { HindisongComponent } from './component/hindisong/hindisong.component';
+
 
 export const routes: Routes = [
 
-    {path:"marathi",component:MarathisongComponent},
-    {path:"enlish",component:EnlishsongComponent},
-    {path:"hindi",component:HindisongComponent}
+    {path:"", component:AlbumComponent},
+    {path:"english",component:EnglistComponent},
+    {path:"hindi",component:HindlistComponent},
+    {path:"marathi",component:MarlistComponent}
 
 
 ];

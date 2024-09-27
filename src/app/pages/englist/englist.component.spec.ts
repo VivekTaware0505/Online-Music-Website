@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HindisongComponent } from './hindisong.component';
+import { EnglistComponent } from './englist.component';
 
-describe('HindisongComponent', () => {
-  let component: HindisongComponent;
-  let fixture: ComponentFixture<HindisongComponent>;
+describe('EnglistComponent', () => {
+  let component: EnglistComponent;
+  let fixture: ComponentFixture<EnglistComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HindisongComponent]
+      imports: [EnglistComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HindisongComponent);
+    fixture = TestBed.createComponent(EnglistComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
