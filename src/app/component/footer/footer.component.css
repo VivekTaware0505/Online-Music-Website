@@ -1,25 +1,54 @@
 .footer{
     width: 100%;
-    height: 15vh;
+    height: 90vh;
 
-    background-image: linear-gradient(100deg , rgb(87, 0, 70) 20% , rgb(139, 0, 219) 80%);
-    /* border-radius: 100% 50% 100%/ 100%  50% 100%; */
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    background-image: linear-gradient(100deg , rgb(51, 0, 41) 20% , rgb(25, 21, 28) 80%);
+ 
+    display: grid;
+    grid-template-areas: 'col1'
+    'col2' 'col3'
+    ;
+    /* grid-template-columns: 30% 30% 30%; */
+    grid-template-rows: 20vh 20vh 20vh 20vh ;
 
 
     color: aliceblue;
 }
+
+.col1{
+    grid-area: col1;
+   margin-left: 10%;
+   margin-top: 3%;
+   margin-right: 10%;
+}
+.col2{
+    grid-area: col2;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+.col3{
+    grid-area: col3;
+    margin-top: 3%;
+    margin-left: 10%;
+   margin-right: 10%;
+   
+}
+
+
 .footer>h1{
+    padding: 5% 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .footer>ul{
+    margin-top: 0;
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10%;
 }
 
