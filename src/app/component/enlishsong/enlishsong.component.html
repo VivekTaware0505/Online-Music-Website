@@ -1,1 +1,19 @@
-<p>enlishsong works!</p>
+<h3>
+    English Songs
+</h3>
+
+
+
+<div class="container">
+    <div class="song">
+        <div class="song-box" *ngFor="let song of audioList">
+            <img [src]="song.cover" alt="" width="200" height="200">
+            <h1>{{song.title}}</h1>
+            <audio controls>
+                <source [src]="song.url" type="audio/mpeg">
+            </audio>
+        </div>
+
+    </div>
+
+</div>
