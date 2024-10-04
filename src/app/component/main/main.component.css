@@ -119,3 +119,10 @@ button:hover {
         background-position: 0% 50%;
     }
 }
+.container{
+
+    width: 90%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
+}

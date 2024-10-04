@@ -10,7 +10,7 @@
     ;
     /* grid-template-columns: 30% 30% 30%; */
     grid-template-rows: 20vh 20vh 20vh 20vh ;
-
+    margin-top: 20%;
 
     color: aliceblue;
 }
